@@ -13,6 +13,10 @@
 		0EDAD691292A1031007126C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAD68F292A1031007126C7 /* Main.storyboard */; };
 		0EDAD693292A1031007126C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAD692292A1031007126C7 /* Assets.xcassets */; };
 		0EDAD696292A1031007126C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EDAD694292A1031007126C7 /* LaunchScreen.storyboard */; };
+		0EDAD69F292A1059007126C7 /* CircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAD69E292A1059007126C7 /* CircleProgress.swift */; };
+		0EDAD6A1292A105E007126C7 /* LineProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAD6A0292A105E007126C7 /* LineProgress.swift */; };
+		0EDAD6A3292A1082007126C7 /* CircleLineProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDAD6A2292A1082007126C7 /* CircleLineProgressBar.swift */; };
+		0EE8FF60292A426D00D89DFE /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8FF5F292A426D00D89DFE /* CGFloat+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0EDAD692292A1031007126C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EDAD695292A1031007126C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EDAD697292A1031007126C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EDAD69E292A1059007126C7 /* CircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgress.swift; sourceTree = "<group>"; };
+		0EDAD6A0292A105E007126C7 /* LineProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineProgress.swift; sourceTree = "<group>"; };
+		0EDAD6A2292A1082007126C7 /* CircleLineProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLineProgressBar.swift; sourceTree = "<group>"; };
+		0EE8FF5F292A426D00D89DFE /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				0EDAD689292A1031007126C7 /* AppDelegate.swift */,
 				0EDAD68B292A1031007126C7 /* SceneDelegate.swift */,
 				0EDAD68D292A1031007126C7 /* ViewController.swift */,
+				0EE8FF5F292A426D00D89DFE /* CGFloat+.swift */,
+				0EDAD69D292A1046007126C7 /* Progress */,
 				0EDAD68F292A1031007126C7 /* Main.storyboard */,
 				0EDAD692292A1031007126C7 /* Assets.xcassets */,
 				0EDAD694292A1031007126C7 /* LaunchScreen.storyboard */,
 				0EDAD697292A1031007126C7 /* Info.plist */,
 			);
 			path = CustomLinearProgressBar;
+			sourceTree = "<group>";
+		};
+		0EDAD69D292A1046007126C7 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				0EDAD69E292A1059007126C7 /* CircleProgress.swift */,
+				0EDAD6A0292A105E007126C7 /* LineProgress.swift */,
+				0EDAD6A2292A1082007126C7 /* CircleLineProgressBar.swift */,
+			);
+			path = Progress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +160,10 @@
 			files = (
 				0EDAD68E292A1031007126C7 /* ViewController.swift in Sources */,
 				0EDAD68A292A1031007126C7 /* AppDelegate.swift in Sources */,
+				0EDAD6A3292A1082007126C7 /* CircleLineProgressBar.swift in Sources */,
+				0EDAD69F292A1059007126C7 /* CircleProgress.swift in Sources */,
+				0EDAD6A1292A105E007126C7 /* LineProgress.swift in Sources */,
+				0EE8FF60292A426D00D89DFE /* CGFloat+.swift in Sources */,
 				0EDAD68C292A1031007126C7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
